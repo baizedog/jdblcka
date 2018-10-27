@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and ( max-width : 900px ){
+	*{
+		margin: 0 auto;
+    text-decoration: none;
+    font-family: 'Microsoft Yahei';
+	}
+	html, body {
+    height: 100%;
+    width: 100%;
+}
+    body {
+        min-height: 485px;
+        overflow: hidden;
+        position: relative;
+    }
+	 @media screen and (max-height: 485px) {
+        body {
+            overflow: visible;
+            padding-bottom: 50px;
+        }
+    }
+    
+.max{ 
+	    width: 100%;
+	    height: 67%;
+        background: url(../img/g_banner_background.png) no-repeat center center;
+        background-size: cover;
+}
+.ttoopp{
+	width: 100%;
+    height: 0px;
+    position: relative;
+}
+.abandon{
+	height: 60px;
+    width: 60px;
+    background: url(../img/g_logo.png) no-repeat center center;
+    margin: 20px 20px 20px 30px;
+    border-radius: 12px;
+    overflow: hidden;
+    float: left;
+}
+
+.logo{
+	margin-left: 30px;
+	margin-top: 100px;
+}
+.zi{
+	line-height: 100px;
+    font-size: 33px;
+    color: #fff;
+    font-family: 'yueyuan';
+}
+.phonesystem{
+	display: none;
+}
+.button{
+	float: left;
+    width: 285px;
+    height: 100%;
+    text-align: center;
+    line-height: 120px;
+    font-size: 33px;
+    color: #fff;
+    border-radius: 10px;
+    background: #fb6c6d;
+}
+.button:hover{
+	background: #ff5454;
+}
+.bici{
+	display: none; 
+	}
+.nan{
+	float: right;
+}	
+	.hard{
+		position: relative;
+    width: 100%;
+	height: 100%;
+	}
+.mageji{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 90px 0 0 0;
+	height: 79.6%;
+    margin: 0;
+    display: inline-block;
+	}
+.left{
+	position: absolute;
+    width: 100%;
+    bottom: 45px;
+}
+	/*这里有点高度问题*/
+.name{
+	display: block;
+    font-size: 35px;
+}
+.kind{
+	font-size: 33px;
+	color: #efefef;
+}
+.colorone{
+	display: inline-block;
+    height: 30px;
+    width: 105px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 25px;
+    border-radius: 5px;
+    background: #fb6c6d;
+}
+.shang:after{
+	content: "";
+    display: block;
+    height: 0;
+    width: 200px;
+    position: relative;
+    bottom: -1px;
+    border-top: 1px solid #fff;
+}
+.erweima{
+	display: none;
+}
+.pone{
+	font-size: 33px;
+    color: #fff;
+    line-height: 60px;
+}
+.zhong{
+	margin: 20px 0;
+    height: 120px;
+    width: 435px;
+}
+.right{
+	background-image: url(../img/g_device_preview_android_mobile.png);
+}
+}
+.small_a{
+	font-size: 17px;
+    color: #fff;
+    margin-right: 40px;
+}
+.small_b{
+	font-size: 17px;
+    color: #fff;
+}
+.content{
+	width: 90%;
+    height: 33%;
+    padding: 0;
+}
+.tutu{
+	height: 100%;
+    float: left;
+}
+.tutu p{
+	text-align: center;
+}
+.picone{
+	 width: 80%;
+    height: 0;
+    padding-bottom: 80%;
+    margin: 20px auto 0;
+}
+.pictwo{
+	 width: 80%;
+    height: 0;
+    padding-bottom: 80%;
+    margin: 20px auto 0;
+}
+.picthree{
+	 width: 80%;
+    height: 0;
+    padding-bottom: 80%;
+    margin: 20px auto 0;
+}
+.picfour{
+	 width: 80%;
+    height: 0;
+    padding-bottom: 80%;
+    margin: 20px auto 0;
+}
+.word{
+	margin-top: 20px;
+	font-family: 'Microsoft Yahei';
+	font-size: 18px;
+}
+	.footer{
+	min-width: 0;
+    height: 5%;
+    line-height: 50px;
+    background: transparent;
+    color: #989898;
+    font-size: 12px;
+    position: absolute;
+    align-bottom: 0;
+	text-align: center;
+	}
+}
+
